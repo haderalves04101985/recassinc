@@ -64,7 +64,7 @@ const FormCad = () => {
   return (
     <form onSubmit={submeterFormulario}>
       <div>
-        <h1>Formulário de cadastro de Aluno</h1>
+        <h1>Agendamento de treinos</h1>
 
         <div className="form-group">
           <label htmlFor="nome">Nome do aluno</label>

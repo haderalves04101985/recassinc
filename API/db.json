@@ -13,18 +13,5 @@
       "nome": "Circuito funcional"
     }
   ],
-  "treinos": [
-    {
-      "nome": "HADER MESSIAS ALVES",
-      "dia": "2021-03-16T19:20",
-      "modalidadeId": 2,
-      "id": 2
-    },
-    {
-      "nome": "Rosemary Alves",
-      "dia": "2021-03-25T20:21",
-      "modalidadeId": 2,
-      "id": 3
-    }
-  ]
+  "treinos": []
 }

@@ -5,11 +5,11 @@ const Header = () => {
   return (
     <nav>
       <NavLink activeClassName="badge badge-primary" to="/" end>
-        Agendamento
+        Agendamentos
       </NavLink>{' '}
       |{' '}
       <NavLink activeClassName="badge badge-primary" to="cadastro">
-        Cadastro de Alunos
+        Agendar treinos
       </NavLink>
     </nav>
   );
