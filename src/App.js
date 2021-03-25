@@ -9,13 +9,17 @@
 import { BrowserRouter } from 'react-router-dom';
 import AppRoutes from './routes';
 import Header from './components/menu';
+import Footer from './Footer';
+import Banner from './Banner';
 
 function App() {
   return (
     <div className="container">
       <BrowserRouter>
         <Header />
+        <Banner />
         <AppRoutes />
+        <Footer />
       </BrowserRouter>
     </div>
   );

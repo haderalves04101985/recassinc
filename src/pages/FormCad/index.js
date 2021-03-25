@@ -64,7 +64,9 @@ const FormCad = () => {
   return (
     <form onSubmit={submeterFormulario}>
       <div>
-        <h1>Agendamento de treinos</h1>
+        <hr />
+        <h1>Agendar Treinos</h1>
+        <hr />
 
         <div className="form-group">
           <label htmlFor="nome">Nome do aluno</label>
@@ -73,18 +75,20 @@ const FormCad = () => {
             name="nome"
             id="nome"
             className="form-control"
+            required
             value={nome}
             onChange={(e) => setNome(e.target.value)}
           />
         </div>
 
         <div className="form-group">
-          <label htmlFor="dia">Data do Treino</label>
+          <label htmlFor="dia">Data/Hora</label>
           <input
             type="datetime-local"
             name="dia"
             id="dia"
             className="form-control"
+            required
             value={dia}
             onChange={(e) => setDia(e.target.value)}
           />

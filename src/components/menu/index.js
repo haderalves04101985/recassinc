@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Header = () => {
   return (
     <nav>
+      <br></br>
       <NavLink activeClassName="badge badge-primary" to="/" end>
         Agendamentos
       </NavLink>{' '}
